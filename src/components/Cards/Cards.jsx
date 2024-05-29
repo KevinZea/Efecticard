@@ -12,6 +12,11 @@ import codensa from '../../assets/codensa.jpg';
 import vanti from '../../assets/vanti.jpg';
 import exito from '../../assets/exito.jpg';
 import sistecredito from '../../assets/sistecredito.png';
+import alkosto from '../../assets/alkosto.png'; 
+import colsubsidio from '../../assets/colsubsidio.jpg';
+import jumbo from '../../assets/jumbo.png';
+import falabella from '../../assets/falabella.png';
+import olimpica from '../../assets/olimpica.png';
 
 import { IoStar } from "react-icons/io5";
 
@@ -19,23 +24,48 @@ const cards = [
     {
         image: codensa,
         title: 'Codensa',
-        description: 'Con tu tarjeta codensa puedes asegurar tu dinero 100% en efectivo.'
+        description: 'Con tu tarjeta Codensa puedes asegurar tu dinero 100% en efectivo.'
     },
     {
         image: vanti,
         title: 'Vanti',
-        description: 'Con tu tarjeta codensa puedes asegurar tu dinero 100% en efectivo.'
+        description: 'Con tu tarjeta Vanti puedes asegurar tu dinero 100% en efectivo.'
     },
     {
         image: exito,
         title: 'Exito',
-        description: 'Con tu tarjeta codensa puedes asegurar tu dinero 100% en efectivo.'
+        description: 'Con tu tarjeta Exito puedes asegurar tu dinero 100% en efectivo.'
     },
     {
         image: sistecredito,
         title: 'Sistecredito',
-        description: 'Con tu tarjeta codensa puedes asegurar tu dinero 100% en efectivo.'
-    }
+        description: 'Con tu Sitecredito puedes asegurar tu dinero 100% en efectivo.'
+    },
+    {
+        image: alkosto,
+        title: 'Alkosto',
+        description: 'Con tu tarjeta Alkosto puedes asegurar tu dinero 100% en efectivo.'
+    },
+    {
+        image: colsubsidio,
+        title: 'Colsubsidio',
+        description: 'Con tu tarjeta Colsubsidio puedes asegurar tu dinero 100% en efectivo.'
+    },
+    {
+        image: jumbo,
+        title: 'Jumbo',
+        description: 'Con tu tarjeta Jumbo puedes asegurar tu dinero 100% en efectivo.'
+    },
+    {
+        image: falabella,
+        title: 'Falabella',
+        description: 'Con tu tarjeta Falabella puedes asegurar tu dinero 100% en efectivo.'
+    },
+    {
+        image: olimpica,
+        title: 'Olimpica',
+        description: 'Con tu tarjeta Olimpica puedes asegurar tu dinero 100% en efectivo.'
+    },
 ];
 
 const CardSlider = ({isMobile}) => {
