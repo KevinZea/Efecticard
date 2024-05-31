@@ -6,37 +6,37 @@ import { MdOutlineAttachMoney } from 'react-icons/md';
 const data = [
     {
         name: 'Tarjeta Exito',
-        commission: '7% más de 1M, 8% menos de 1M',
+        commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
         icon: FaCreditCard
     },
     {
         name: 'Falabella',
-        commission: '7% más de 1M, 8% menos de 1M',
+        commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
         icon: FaCreditCard
     },
     {
         name: 'Carulla',
-        commission: '7% más de 1M, 8% menos de 1M',
+        commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
         icon: FaCreditCard
     },
     {
         name: 'Olimpica',
-        commission: '7% más de 1M, 8% menos de 1M',
+        commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
         icon: FaCreditCard
     },
     {
         name: 'Condensa',
-        commission: '7% más de 1M, 8% menos de 1M',
+        commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
         icon: FaCreditCard
     },
     {
         name: 'Alkosto',
-        commission: '7% más de 1M, 8% menos de 1M',
+        commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
         icon: FaCreditCard
     },
     {
         name: 'Colsubsidio',
-        commission: '7% más de 1M, 8% menos de 1M',
+        commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
         icon: FaCreditCard
     },
     {
@@ -46,7 +46,7 @@ const data = [
     },
     {
         name: 'Sistecredito',
-        commission: '20% más de 1M',
+        commission: '20% si es más de 1 Millon de pesos',
         icon: MdOutlineAttachMoney
     },
 ];
