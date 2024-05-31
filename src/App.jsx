@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import CardSlider from './components/Cards/Cards';
 import WhatsAppButton from './components/BtnW/BtnW';
+import NotesComponent from './components/Notes/Notes';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -30,6 +31,7 @@ function App() {
       <Head isMobile={isMobile} refs={{ homeRef, aboutRef, sliderRef, cardsRef }} />
       <div ref={homeRef}><Home isMobile={isMobile} /></div>
       <div ref={sliderRef}><Slider /></div>
+      <NotesComponent isMobile={isMobile}/>
       <div ref={aboutRef}><About isMobile={isMobile} /></div>
       <div ref={cardsRef}><CardSlider isMobile={isMobile} /></div>
       <Footer isMobile={isMobile} />
