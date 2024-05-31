@@ -6,6 +6,16 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 const About = ({ isMobile }) => {
 
+    const phoneNumber = '573150407608';
+    const defaultMessage = encodeURIComponent('Hola, me gustaría saber más sobre tus servicios.'); // Codifica el mensaje para URL
+
+    const handleClick = () => {
+        // Construye la URL de WhatsApp
+        const waUrl = `https://wa.me/${phoneNumber}?text=${defaultMessage}`;
+        // Redirecciona al usuario a WhatsApp
+        window.open(waUrl, '_blank');
+    };
+
     return (
         <Box
             w={"100%"}
@@ -35,6 +45,7 @@ const About = ({ isMobile }) => {
                         size={"lg"}
                         gap={3}
                         mt={3}
+                        onClick={handleClick}
                     >
                         Contáctanos
                         <IoLogoWhatsapp />

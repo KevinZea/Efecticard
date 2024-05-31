@@ -5,6 +5,7 @@ import Slider from './components/Slider/Slider';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import CardSlider from './components/Cards/Cards';
+import WhatsAppButton from './components/BtnW/BtnW';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -32,6 +33,7 @@ function App() {
       <div ref={aboutRef}><About isMobile={isMobile} /></div>
       <div ref={cardsRef}><CardSlider isMobile={isMobile} /></div>
       <Footer isMobile={isMobile} />
+      <WhatsAppButton />
     </>
   )
 }

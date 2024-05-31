@@ -12,11 +12,12 @@ import codensa from '../../assets/codensa.jpg';
 import vanti from '../../assets/vanti.jpg';
 import exito from '../../assets/exito.jpg';
 import sistecredito from '../../assets/sistecredito.png';
-import alkosto from '../../assets/alkosto.png'; 
+import alkosto from '../../assets/alkosto.png';
 import colsubsidio from '../../assets/colsubsidio.jpg';
 import jumbo from '../../assets/jumbo.png';
 import falabella from '../../assets/falabella.png';
 import olimpica from '../../assets/olimpica.png';
+import carulla from '../../assets/carulla.jpg';
 
 import { IoStar } from "react-icons/io5";
 
@@ -66,9 +67,14 @@ const cards = [
         title: 'Olimpica',
         description: 'Con tu tarjeta Olimpica puedes asegurar tu dinero 100% en efectivo.'
     },
+    {
+        image: carulla,
+        title: 'Carulla',
+        description: 'Con tu tarjeta Carulla puedes asegurar tu dinero 100% en efectivo.'
+    },
 ];
 
-const CardSlider = ({isMobile}) => {
+const CardSlider = ({ isMobile }) => {
     const [swiperRef, setSwiperRef] = useState(null);
 
     let appendNumber = cards.length;
@@ -94,6 +100,16 @@ const CardSlider = ({isMobile}) => {
             `<div class="swiper-slide">Slide ${++appendNumber}</div>`,
             `<div class="swiper-slide">Slide ${++appendNumber}</div>`,
         ]);
+    };
+
+    const phoneNumber = '573150407608';
+    const defaultMessage = encodeURIComponent('Hola, me gustaría saber más sobre tus servicios.'); // Codifica el mensaje para URL
+
+    const handleClick = () => {
+        // Construye la URL de WhatsApp
+        const waUrl = `https://wa.me/${phoneNumber}?text=${defaultMessage}`;
+        // Redirecciona al usuario a WhatsApp
+        window.open(waUrl, '_blank');
     };
 
     return (
@@ -127,6 +143,7 @@ const CardSlider = ({isMobile}) => {
                                 size={isMobile ? "xs" : "lg"}
                                 gap={3}
                                 mt={3}
+                                onClick={handleClick}
                             >
                                 Contáctanos
                                 <IoLogoWhatsapp />

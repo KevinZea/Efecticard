@@ -11,7 +11,16 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-const Footer = ({isMobile}) => {
+const Footer = ({ isMobile }) => {
+    const phoneNumber = '573150407608';
+    const defaultMessage = encodeURIComponent('Hola, me gustaría saber más sobre tus servicios.'); // Codifica el mensaje para URL
+
+    const handleClick = () => {
+        // Construye la URL de WhatsApp
+        const waUrl = `https://wa.me/${phoneNumber}?text=${defaultMessage}`;
+        // Redirecciona al usuario a WhatsApp
+        window.open(waUrl, '_blank');
+    };
 
     return (
         <Box
@@ -33,7 +42,11 @@ const Footer = ({isMobile}) => {
                 </Text>
                 <Flex gap={5} mt={3} fontSize={20}>
                     <FaFacebook />
-                    <FaWhatsapp />
+                    <Box onClick={handleClick}
+                        _hover={{ cursor: "pointer" }}
+                    >
+                        <FaWhatsapp />
+                    </Box>
                     <FaInstagram />
                 </Flex>
             </Box>
