@@ -25,7 +25,7 @@ const data = [
         icon: FaCreditCard
     },
     {
-        name: 'Condensa',
+        name: 'Codensa',
         commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
         icon: FaCreditCard
     },
