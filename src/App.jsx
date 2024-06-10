@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import CardSlider from './components/Cards/Cards';
 import WhatsAppButton from './components/BtnW/BtnW';
 import NotesComponent from './components/Notes/Notes';
+import ContactSection from './components/Contact/Contact';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -34,6 +35,7 @@ function App() {
       <NotesComponent isMobile={isMobile}/>
       <div ref={aboutRef}><About isMobile={isMobile} /></div>
       <div ref={cardsRef}><CardSlider isMobile={isMobile} /></div>
+      <ContactSection/>
       <Footer isMobile={isMobile} />
       <WhatsAppButton />
     </>
