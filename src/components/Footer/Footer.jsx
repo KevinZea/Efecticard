@@ -56,7 +56,7 @@ const Footer = ({ isMobile }) => {
                 <UnorderedList mt={3}>
                     <ListItem>Inicio</ListItem>
                     <ListItem>¿Quienes somos?</ListItem>
-                    <ListItem>Prestamos</ListItem>
+                    <ListItem>Productos</ListItem>
                     <ListItem>Contacto</ListItem>
                 </UnorderedList>
             </Box>
