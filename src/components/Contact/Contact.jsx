@@ -4,6 +4,7 @@ import { FaPhone, FaWhatsapp } from 'react-icons/fa';
 import contact from "../../assets/contact.jpg";
 
 const phoneNumber = '573150407608';
+const phoneNumberTwo = '3150407608';
 const defaultMessage = encodeURIComponent('Hola, me gustaría saber más sobre tus servicios.');
 const waUrl = `https://wa.me/${phoneNumber}?text=${defaultMessage}`;
 
@@ -23,7 +24,7 @@ const ContactSection = () => {
                 <Text fontSize="2xl" fontWeight="bold">¡Estamos aquí para ayudarte!</Text>
                 <Text fontSize="md">Puedes contactarnos directamente o enviarnos un mensaje vía WhatsApp.</Text>
                 <Stack direction={['column', 'row']} spacing={4}>
-                    <Link href={`tel:${phoneNumber}`} isExternal display="flex" alignItems="center" p={3} bg={bg} rounded="md" _hover={{ bg: hoverBg }}>
+                    <Link href={`tel:${phoneNumberTwo}`} isExternal display="flex" alignItems="center" p={3} bg={bg} rounded="md" _hover={{ bg: hoverBg }}>
                         <Icon as={FaPhone} mr={2} w={6} h={6} />
                         +57 315 040 76 08
                     </Link>
