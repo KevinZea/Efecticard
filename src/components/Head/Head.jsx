@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, HStack, Heading, Text, Image } from '@chakra-ui/react';
 import logo from '../../assets/logo.png';
 
-const navItems = ["Inicio", "¿Quienes somos?", "Entidades", "Contacto"];
+const navItems = ["Inicio", "¿Quienes somos?", "Productos", "Contacto"];
 
 const Head = ({ isMobile, refs }) => {
     console.log(refs);
