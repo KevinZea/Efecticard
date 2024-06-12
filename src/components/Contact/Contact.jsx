@@ -26,7 +26,7 @@ const ContactSection = () => {
                 <Stack direction={['column', 'row']} spacing={4}>
                     <Link href={`tel:${phoneNumberTwo}`} isExternal display="flex" alignItems="center" p={3} bg={bg} rounded="md" _hover={{ bg: hoverBg }}>
                         <Icon as={FaPhone} mr={2} w={6} h={6} />
-                        315 040 76 08
+                        +57 3150407608
                     </Link>
                     <Link href={waUrl} isExternal display="flex" alignItems="center" p={3} bg={bg} rounded="md" _hover={{ bg: hoverBg }}>
                         <Icon as={FaWhatsapp} mr={2} w={6} h={6} />
