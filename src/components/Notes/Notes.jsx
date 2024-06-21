@@ -49,6 +49,21 @@ const data = [
         commission: '20% si es más de 1 Millon de pesos',
         icon: MdOutlineAttachMoney
     },
+    {
+        name: 'Sodexo',
+        commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
+        icon: FaCreditCard
+    },
+    {
+        name: 'Jumbo',
+        commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
+        icon: FaCreditCard
+    },
+    {
+        name: 'Bigpass',
+        commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
+        icon: FaCreditCard
+    }
 ];
 
 const NotesComponent = ({ isMobile }) => {

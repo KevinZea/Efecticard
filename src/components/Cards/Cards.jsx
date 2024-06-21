@@ -18,6 +18,8 @@ import jumbo from '../../assets/jumbo.png';
 import falabella from '../../assets/falabella.png';
 import olimpica from '../../assets/olimpica.png';
 import carulla from '../../assets/carulla.jpg';
+import sodexo from '../../assets/sodexo.png';
+import bigpass from '../../assets/bigpass.png';
 
 import { IoStar } from "react-icons/io5";
 
@@ -72,6 +74,16 @@ const cards = [
         title: 'Carulla',
         description: 'Con tu tarjeta Carulla puedes asegurar tu dinero 100% en efectivo.'
     },
+    {
+        image: sodexo,
+        title: 'Sodexo',
+        description: 'Con tu tarjeta Sodexo puedes asegurar tu dinero 100% en efectivo.'
+    },
+    {
+        image: bigpass,
+        title: 'Bigpass',
+        description: 'Con tu tarjeta Bigpass puedes asegurar tu dinero 100% en efectivo.'
+    }
 ];
 
 const CardSlider = ({ isMobile }) => {

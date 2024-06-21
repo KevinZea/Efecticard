@@ -10,6 +10,8 @@ import slider1 from '../../assets/2.jpg';
 import slider2 from '../../assets/3.jpg';
 import slider3 from '../../assets/4.jpg';
 import slider4 from '../../assets/5.jpg';
+import slider5 from '../../assets/6.jpg';
+import slider6 from '../../assets/7.jpg';
 
 // Instalar módulos de Swiper
 
@@ -17,7 +19,9 @@ const images = [
     slider1,
     slider2,
     slider3,
-    slider4
+    slider4,
+    slider5,
+    slider6
 
 ];
 
