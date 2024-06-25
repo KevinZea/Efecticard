@@ -77,12 +77,12 @@ const cards = [
     {
         image: sodexo,
         title: 'Sodexo',
-        description: 'Con tu tarjeta Sodexo puedes asegurar tu dinero 100% en efectivo.'
+        description: 'Con tus Bonos Sodexo puedes asegurar tu dinero 100% en efectivo.'
     },
     {
         image: bigpass,
         title: 'Bigpass',
-        description: 'Con tu tarjeta Bigpass puedes asegurar tu dinero 100% en efectivo.'
+        description: 'Con tus Bonos Bigpass puedes asegurar tu dinero 100% en efectivo.'
     }
 ];
 

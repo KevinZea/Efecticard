@@ -50,7 +50,7 @@ const data = [
         icon: MdOutlineAttachMoney
     },
     {
-        name: 'Sodexo',
+        name: 'Bonos Sodexo',
         commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
         icon: FaCreditCard
     },
@@ -60,7 +60,7 @@ const data = [
         icon: FaCreditCard
     },
     {
-        name: 'Bigpass',
+        name: 'Bonos Bigpass',
         commission: '7% si es más de 1 Millon de pesos, 8% si es menos de 1 Millon de pesos',
         icon: FaCreditCard
     }
